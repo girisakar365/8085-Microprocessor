@@ -23,7 +23,7 @@ You can get the 8085 Microprocessor Simulator in two ways:
 
 1. **View the website / project page:**  
    Explore features, documentation, and demos on the official project page:  
-   [https://github.com/girisakar365/8085-Microprocessor](https://github.com/girisakar365/8085-Microprocessor)
+   [https://8085microprocessor.github.io](https://8085microprocessor.github.io)
 
 2. **Direct download from Releases:**  
    Download pre-built versions of the simulator from the GitHub Releases page:  
