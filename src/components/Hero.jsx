@@ -67,8 +67,8 @@ export const Hero = () => {
               transition={{ delay: 0.3 }}
               className="text-5xl md:text-6xl lg:text-7xl font-black tracking-tight mb-6"
             >
-              <span className="gradient-text">ASM</span>
-              <span className="text-foreground"> Studio</span>
+              <span className="gradient-text">8085</span>
+              <span className="text-foreground"> Microprocessor</span>
             </motion.h1>
 
             <motion.p
@@ -77,7 +77,7 @@ export const Hero = () => {
               transition={{ delay: 0.4 }}
               className="text-xl md:text-2xl text-muted-foreground mb-4 font-medium"
             >
-              The Modern IDE for 8085 Assembly Programming
+              The Modern CLI for 8085 Assembly Programming
             </motion.p>
 
             <motion.p
@@ -86,8 +86,7 @@ export const Hero = () => {
               transition={{ delay: 0.5 }}
               className="text-lg text-muted-foreground/80 mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Write, simulate, and debug 8085 assembly code with a Jupyter-style
-              notebook interface. Powered by AI assistance.
+              Write, simulate, and debug 8085 assembly code with a interactive cli interface. Powered by AI assistance.
             </motion.p>
 
             <motion.div
@@ -115,9 +114,15 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="relative"
           >
-            <div className="bg-card rounded-xl overflow-hidden">
-              {/* Window header */}
-              <img src="https://placehold.co/800x400" alt="logo" className="w-full h-auto" />
+            <div className="relative p-[2px] rounded-xl bg-gradient-to-br from-primary via-accent to-primary/50 shadow-2xl shadow-primary/20">
+              <div className="bg-card rounded-xl overflow-hidden ring-1 ring-primary/10">
+                {/* Window header */}
+                <img
+                  src="https://placehold.co/800x400"
+                  alt="logo"
+                  className="w-full h-auto"
+                />
+              </div>
             </div>
           </motion.div>
         </div>

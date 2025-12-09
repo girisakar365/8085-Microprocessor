@@ -1,9 +1,9 @@
 {
-  "name": "asm-studio",
+  "name": "8085-microprocessor",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://asmstudio.github.io",
+  "homepage": "https://8085microprocessor.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

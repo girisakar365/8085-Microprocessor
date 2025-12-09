@@ -22,7 +22,7 @@ export const DemoPreview = () => {
             <span className="gradient-text">future of assembly</span>
           </h2>
           <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto">
-            Watch how ASM Studio transforms your coding workflow with
+            Watch how 8085 Microprocessor transforms your coding workflow with
             intelligent features and a beautiful interface.
           </p>
         </motion.div>

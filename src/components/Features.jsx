@@ -4,31 +4,31 @@ import { BookOpen, Sparkles, Cpu, Zap } from "lucide-react";
 const features = [
   {
     icon: BookOpen,
-    title: "Jupyter-Style Notebook",
+    title: "Interactive REPL",
     description:
-      "Write, document, and execute code in interactive cells.",
+      "Write, assemble, and execute 8085 assembly code in an interactive terminal-like environment.",
     gradient: "from-primary to-cyan-400",
   },
   {
-    icon: Sparkles,
-    title: "AI-Powered Assistant",
+    icon: Cpu,
+    title: "Real-Time Simulator",
     description:
-      "Get instant help with syntax, debugging, and optimization. Your personal 8085 expert powered by AI.",
-    gradient: "from-accent to-pink-400",
+      "Monitor registers, flags, and memory in real-time. Step through instructions and visualize processor state.",
+    gradient: "from-green-400 to-emerald-400",
   },
   {
     icon: Zap,
     title: "Built-in Assembler",
     description:
-      "Compile and assemble your code instantly. Real-time error detection.",
+      "Assemble code instantly with opcode output and real-time error detection.",
     gradient: "from-yellow-400 to-orange-400",
   },
   {
-    icon: Cpu,
-    title: "8085 Simulator",
+    icon: Sparkles,
+    title: "AI Assistant",
     description:
-      "Simulate execution step-by-step. Visualize registers, flags, and memory in real-time.",
-    gradient: "from-green-400 to-emerald-400",
+      "Get guidance on 8085 programming, instruction usage, and debugging via the integrated AI assistant.",
+    gradient: "from-accent to-pink-400",
   },
 ];
 
@@ -77,8 +77,8 @@ export const Features = () => {
             <span className="gradient-text">master 8085</span>
           </h2>
           <p className="text-muted-foreground text-base sm:text-lg max-w-2xl mx-auto">
-            A complete development environment packed with powerful tools for
-            learning, writing, and debugging assembly code.
+            A complete CLI development environment for learning, writing, and
+            debugging Intel 8085 assembly code.
           </p>
         </motion.div>
 

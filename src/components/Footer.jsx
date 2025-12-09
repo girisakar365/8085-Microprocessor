@@ -1,20 +1,31 @@
-import {  ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 const footerLinks = {
   product: [
+    { name: "Home", href: "#" },
     { name: "Features", href: "#features" },
     { name: "Download", href: "#download" },
     { name: "Demo", href: "#demo" },
   ],
   resources: [
-    { name: "Documentation", href: "#" },
-    { name: "Tutorials", href: "#" },
-    { name: "8085 Reference", href: "#" },
+    {
+      name: "8085 Programs",
+      href: "https://github.com/girisakar365/8085-Microprocessor/tree/cli/Test/Programs",
+    },
   ],
   community: [
-    { name: "GitHub", href: "#" },
-    { name: "Report Bug", href: "#" },
-    { name: "Contribute", href: "#" },
+    {
+      name: "GitHub",
+      href: "https://github.com/girisakar365/8085-Microprocessor",
+    },
+    {
+      name: "Report Bug",
+      href: "https://github.com/girisakar365/8085-Microprocessor/issues",
+    },
+    {
+      name: "Contribute",
+      href: "https://github.com/girisakar365/8085-Microprocessor",
+    },
   ],
 };
 
@@ -26,22 +37,24 @@ export const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-linear-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xs sm:text-sm">
-                  AS
-                </span>
+              <div className="w-8 h-8 sm:w-9 sm:h-9 bg-linear-to-br from-primary to-accent flex items-center justify-center">
+                <img src="/icon.png" alt="8085 Microprocessor" />
               </div>
-              <span className="text-lg sm:text-xl font-bold">ASM Studio</span>
+              <span className="text-lg sm:text-xl font-bold">
+                8085 Microprocessor
+              </span>
             </div>
             <p className="text-muted-foreground mb-4 sm:mb-6 max-w-sm text-sm sm:text-base">
-              The modern IDE for 8085 assembly programming. Write, simulate, and
-              debug with a beautiful notebook interface.
+              The modern CLI for 8085 assembly programming. Write, simulate, and
+              debug with a beautiful command line interface.
             </p>
           </div>
 
           {/* Links */}
           <div>
-            <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Product</h4>
+            <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">
+              Product
+            </h4>
             <ul className="space-y-2 sm:space-y-3">
               {footerLinks.product.map((link) => (
                 <li key={link.name}>
@@ -57,7 +70,9 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Resources</h4>
+            <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">
+              Resources
+            </h4>
             <ul className="space-y-2 sm:space-y-3">
               {footerLinks.resources.map((link) => (
                 <li key={link.name}>
@@ -74,7 +89,9 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">Community</h4>
+            <h4 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">
+              Community
+            </h4>
             <ul className="space-y-2 sm:space-y-3">
               {footerLinks.community.map((link) => (
                 <li key={link.name}>
@@ -93,7 +110,7 @@ export const Footer = () => {
         {/* Bottom bar */}
         <div className="pt-6 sm:pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs sm:text-sm text-muted-foreground">
-            © 2024 ASM Studio. Made for learners, by learners.
+            &copy; 2025 8085 Microprocessor. Made for learners, by learners.
           </p>
         </div>
       </div>

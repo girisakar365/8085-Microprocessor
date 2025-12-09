@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 
 const navLinks = [
+  { name: "Home", href: "#" },
   { name: "Features", href: "#features" },
   { name: "Demo", href: "#demo" },
   { name: "About", href: "#about" },
@@ -25,9 +26,9 @@ export const Navbar = () => {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <a href="#" className="flex items-center gap-2">
-              <img src="https://placehold.co/40x40" alt="logo" />
+              <img src="/icon.png" alt="logo" height="28px" width="28px" />
               <span className="text-lg font-bold hidden sm:block">
-                ASM Studio
+                8085 Microprocessor
               </span>
             </a>
 

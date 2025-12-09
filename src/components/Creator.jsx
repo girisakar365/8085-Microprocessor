@@ -46,14 +46,29 @@ export const Creator = () => {
                   <motion.div
                     initial={{ scale: 0.8, opacity: 0 }}
                     whileInView={{ scale: 1, opacity: 1 }}
+                    whileHover={{ scale: 1.05, rotate: [0, -2, 2, 0] }}
+                    animate={{ y: [0, -8, 0] }}
                     viewport={{ once: true }}
-                    transition={{ delay: 0.2 }}
+                    transition={{ 
+                      scale: { delay: 0.2 },
+                      opacity: { delay: 0.2 },
+                      y: { duration: 3, repeat: Infinity, ease: "easeInOut" },
+                      rotate: { duration: 0.5 }
+                    }}
                     className="w-28 h-28 sm:w-32 sm:h-32 mx-auto mb-4 relative cursor-pointer"
                   >
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/intropercib"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <div className="absolute inset-0 bg-linear-to-br from-primary to-accent rounded-full animate-pulse-glow" />
                       <div className="absolute inset-1 bg-card rounded-full flex items-center justify-center">
-                        <span className="text-3xl sm:text-4xl font-bold gradient-text">AS1</span>
+                        <img
+                          src="https://avatars.githubusercontent.com/u/147626425?v=4"
+                          alt="Sakar Giri"
+                          className="w-full h-full rounded-full"
+                        />
                       </div>
                     </a>
                   </motion.div>
@@ -64,7 +79,9 @@ export const Creator = () => {
                     viewport={{ once: true }}
                     transition={{ delay: 0.3 }}
                   >
-                    <h3 className="text-xl sm:text-2xl font-bold mb-1">Developer Name</h3>
+                    <h3 className="text-xl sm:text-2xl font-bold mb-1">
+                      Bigyan Nepali
+                    </h3>
                   </motion.div>
                 </div>
 
@@ -73,14 +90,29 @@ export const Creator = () => {
                   <motion.div
                     initial={{ scale: 0.8, opacity: 0 }}
                     whileInView={{ scale: 1, opacity: 1 }}
+                    whileHover={{ scale: 1.05, rotate: [0, 2, -2, 0] }}
+                    animate={{ y: [0, -8, 0] }}
                     viewport={{ once: true }}
-                    transition={{ delay: 0.2 }}
+                    transition={{ 
+                      scale: { delay: 0.2 },
+                      opacity: { delay: 0.2 },
+                      y: { duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1.5 },
+                      rotate: { duration: 0.5 }
+                    }}
                     className="w-28 h-28 sm:w-32 sm:h-32 mx-auto mb-4 relative cursor-pointer"
                   >
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://github.com/girisakar365"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <div className="absolute inset-0 bg-linear-to-br from-primary to-accent rounded-full animate-pulse-glow" />
                       <div className="absolute inset-1 bg-card rounded-full flex items-center justify-center">
-                        <span className="text-3xl sm:text-4xl font-bold gradient-text">AS2</span>
+                        <img
+                          src="https://avatars.githubusercontent.com/u/70592584?v=4"
+                          alt="Sakar Giri"
+                          className="w-full h-full rounded-full"
+                        />
                       </div>
                     </a>
                   </motion.div>
@@ -91,7 +123,9 @@ export const Creator = () => {
                     viewport={{ once: true }}
                     transition={{ delay: 0.3 }}
                   >
-                    <h3 className="text-xl sm:text-2xl font-bold mb-1">Developer Name</h3>
+                    <h3 className="text-xl sm:text-2xl font-bold mb-1">
+                      Sakar Giri
+                    </h3>
                   </motion.div>
                 </div>
               </div>
@@ -103,7 +137,9 @@ export const Creator = () => {
                 transition={{ delay: 0.4 }}
                 className="text-muted-foreground mb-6 sm:mb-8 max-w-md mx-auto text-sm sm:text-base leading-relaxed"
               >
-                Passionate about retro computing, education, and developer tools. Building ASM Studio to make learning 8085 assembly programming modern and enjoyable.
+                Passionate about retro computing, education, and developer
+                tools. Building 8085 Microprocessor to make learning 8085
+                assembly programming modern and enjoyable.
               </motion.p>
 
               <motion.div
