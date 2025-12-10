@@ -118,7 +118,7 @@ export const Hero = () => {
               <div className="bg-card rounded-xl overflow-hidden ring-1 ring-primary/10">
                 {/* Window header */}
                 <img
-                  src="https://placehold.co/800x400"
+                  src="/demo_pic.png"
                   alt="logo"
                   className="w-full h-auto"
                 />

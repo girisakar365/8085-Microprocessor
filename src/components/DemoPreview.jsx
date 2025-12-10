@@ -37,7 +37,7 @@ export const DemoPreview = () => {
           {/* Demo window frame */}
           <div className="glass-card p-1.5 glow-primary">
             <div className="bg-card rounded-xl overflow-hidden">
-              <img src="https://placehold.co/1200x800" alt="logo" className="w-full h-auto" />
+              <video src="/demo_video.webm" autoPlay loop muted playsInline alt="logo" className="w-full h-auto" />
             </div>
           </div>
         </motion.div>
